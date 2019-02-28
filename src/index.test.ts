@@ -6,8 +6,6 @@ beforeAll(() => {
   document.body.appendChild(el);
 });
 
-beforeEach(() => {});
-
 it("should instantiate quill", () => {
   const quill = new Quill("#editor");
   expect(quill).toBeTruthy;
